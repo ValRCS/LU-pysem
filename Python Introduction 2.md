@@ -68,21 +68,21 @@ piezīme par Virtual environments (skat. pip install un Anaconda saites)
 
 ## Interesants moduļu lietojums (no komandrindas)
 
-# validate and pretty-print JSON files
-#    https://docs.python.org/3/library/json.html#module-json.tool
+#### validate and pretty-print JSON files
+###    https://docs.python.org/3/library/json.html#module-json.tool
 python -m json.tool input.json
 
-# launch simple HTTP server in the current directory
-#    https://docs.python.org/3/library/http.server.html
+### launch simple HTTP server in the current directory
+###    https://docs.python.org/3/library/http.server.html
 python -m http.server 8000
 
 
 
-## Python funkcijas un klases (atkārtojums)
+### Python funkcijas un klases (atkārtojums)
 
-# Funkcijas piemērs
+### Funkcijas piemērs
 
-# Klases piemērs
+### Klases piemērs
 
 
 
