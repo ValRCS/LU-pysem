@@ -10,3 +10,6 @@ https://www.anaconda.com/download/
 
 ### Binder(hosted Jupyter notebooks) Beta
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ValRCS/LU-pysem/master)
+
+
+## W2 Lecture: http://youtu.be/9AWcn6KVZJw
