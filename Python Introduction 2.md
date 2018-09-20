@@ -88,7 +88,7 @@ python -m http.server 8000
 
 ## Kā izskatās Python programmas
 
-# plain script -> funkcijas un klases -> maza, pilnvērtīga programma -> (kas vēl?)
+### plain script -> funkcijas un klases -> maza, pilnvērtīga programma -> (kas vēl?)
 
 - plain script bez dziļākas struktūras
 - plain script, kas definē:
@@ -107,4 +107,4 @@ python -m http.server 8000
 (piem., par vārdu biežumu)
 
 
-# (tālāk saites uz nodarbības IPyton notebooks)
+### (tālāk saites uz nodarbības IPyton notebooks)
