@@ -5,6 +5,9 @@
   - kā gāja ar Anaconda instalēšanu?
   - vēl kādi Python jautājumi?
   - par koda redaktoriem
+  
+  Rekomendācija redaktoram: https://code.visualstudio.com/
+  (ja uzstāda caur Anaconda tad Python plugins nāk līdzi bet var likt arī atsevišķi)
 
 ### Python komūna 
 
