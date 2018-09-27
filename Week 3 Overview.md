@@ -1,3 +1,5 @@
+# Week 3 Python Seminar
+
 * Mājas uzdevumi
 
 * Klases
