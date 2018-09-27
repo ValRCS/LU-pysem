@@ -10,6 +10,7 @@
 * Collections module
   * https://docs.python.org/3/library/collections.html
   * [notebook about collections](https://github.com/ValRCS/LU-pysem/blob/master/Python%20Collections%20library.ipynb)
+  * https://github.com/python/cpython/blob/master/Objects/dictobject.c
 
 * File I/O
   * [Reading and writing files (tutorial)](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
