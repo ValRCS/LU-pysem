@@ -27,3 +27,5 @@
 * [Uzdevums par teksta attīrīšanu](https://github.com/ValRCS/LU-pysem/blob/master/Python%20Introduction%202%20-%20Uzdevums.ipynb)
 
 * Drusku grūtāks uzdevums nolasīt tekstu no web
+
+# Video of the week 3: http://youtu.be/HWU_vuPiPVo
