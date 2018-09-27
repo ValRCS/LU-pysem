@@ -4,6 +4,10 @@
  
 * Datu struktūras (atkārtojums)
 
+Use dictionary as in memory key-value store
+Saving your in memory objects
+https://docs.python.org/3/library/pickle.html
+
 * Klases, metodes
   * [Python Classes.ipynb](https://github.com/ValRCS/LU-pysem/blob/master/Python%20Classes.ipynb)
 
