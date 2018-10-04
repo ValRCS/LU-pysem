@@ -13,3 +13,7 @@ https://www.anaconda.com/download/
 
 
 ## W2 Lecture: http://youtu.be/9AWcn6KVZJw
+
+## W3 Lecture: http://youtu.be/HWU_vuPiPVo
+
+## W4 Lecture: http://youtu.be/xx1vk0PPkd0
