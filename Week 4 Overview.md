@@ -20,6 +20,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 https://github.com/ValRCS/LU-pysem/blob/master/Python_Numpy_42_exercises_with_hints.ipynb
  
+ Week 4 VIDEO: http://youtu.be/xx1vk0PPkd0
  
  
  
