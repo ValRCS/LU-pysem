@@ -11,6 +11,8 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
  
 * Dienas Tēma: NumPy bibliotēka 
 
+![NumPY](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NumPy_logo.svg/330px-NumPy_logo.svg.png)
+
  https://github.com/ValRCS/LU-pysem/blob/master/Python%20NumPy.ipynb
  
  
