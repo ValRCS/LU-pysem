@@ -35,7 +35,7 @@
 
 
 ### Machine Learning / Data Mining / AI
-* (Scikit-Learn)[http://scikit-learn.org/]
+* !(Scikit-Learn)[http://scikit-learn.org/]
 * TensorFlow
 * PyTorch
 * Keras
