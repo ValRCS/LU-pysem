@@ -44,6 +44,10 @@
 * openCV
 * PIL
 
+### Visualizations
+* mathplotlib
+* plotly
+
 ### GUI
 * PyQT, PySide (recommend PySide)
 * wxWidgets
