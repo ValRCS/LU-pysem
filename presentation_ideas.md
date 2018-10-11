@@ -13,6 +13,13 @@
 
 ## Libraries
 
+### Lists of Python Libraries
+
+* Python 3.x standard library (list of modules): https://docs.python.org/3/library/
+* Top Python packages on PyPI: https://hugovk.github.io/top-pypi-packages/
+* List of useful Python modules: https://wiki.python.org/moin/UsefulModules
+
+
 ### General Computational
 
 * NumPy (will be covered in class)
