@@ -22,5 +22,7 @@ Generators
 
 * https://github.com/ValRCS/LU-pysem/blob/master/Python%20Generators.ipynb
 
+Week 6 Lecture video: http://youtu.be/_cZ1IcluViQ
+
  
  
