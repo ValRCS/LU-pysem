@@ -19,3 +19,5 @@ https://www.anaconda.com/download/
 ## W4 Lecture: http://youtu.be/xx1vk0PPkd0
 
 ## W6 Lecture: http://youtu.be/_cZ1IcluViQ
+
+## W8 Lecture: http://youtu.be/3aTyan0gHQs
