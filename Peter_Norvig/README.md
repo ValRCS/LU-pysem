@@ -12,7 +12,7 @@ https://github.com/norvig/pytudes
 
 ## Famous Suduko Solver
 
-http://norvig.com/sudoku.htmlhttp://aima.cs.berkeley.edu/
+http://norvig.com/sudoku.html
 
 ## Teach Yourself Programming in 10 years
 
