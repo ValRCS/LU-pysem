@@ -26,3 +26,5 @@ https://www.anaconda.com/download/
 
 ## W10 Lecture: https://www.youtube.com/watch?v=6CC6nJkuHgw
 http://colab.research.google.com/github/ValRCS/LU-pysem/blob/master/keras_classify.ipynb
+
+## W12 Lecture: https://www.youtube.com/watch?v=1vs99NZ5EyY
