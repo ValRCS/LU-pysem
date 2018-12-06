@@ -2,7 +2,7 @@
 
 https://adventofcode.com/
 
-![Tree](Xmas_tree.png)
+![Tree](xmas_tree.png)
 from: https://teampython.wordpress.com/2015/12/12/print-a-christmas-tree/
 
 ## About 
