@@ -1,0 +1,177 @@
+===
+
+Apmācība ar pilnu leksikonu:
+
+[I] Word whitelist is read (202019).  # Ar normalize_text
+
+>>> nb_experiment.run_training("20_newsgroup.tsv", True)
+[I] Training an NB classifier...
+[I] Training time: 0:01:42
+
+nb_classifier.pickle = 373 MB
+
+Validācija ar pilnu leksikonu:
+
+>>> nb_experiment.run_validation("20_newsgroup.tsv", 5, 1)
+
+	5-fold cross-validation:
+
+	1.	0.75  0.73  0.75  0.76  0.74  	75%
+
+	Total validation time: 0:08:59
+
+	Average accuracy in 1 iterations: 75%
+
+===
+
+Apmācība ar 3+ leksikonu:
+
+[I] Word whitelist is read (57973).
+
+>>> nb_experiment.run_training("20_newsgroup.tsv", True)
+[I] Training an NB classifier...
+[I] Training time: 0:01:07
+
+nb_classifier.pickle = 109 MB
+
+Validācija ar 3+ leksikonu:
+
+>>> nb_experiment.run_validation("20_newsgroup.tsv", 5, 1)
+
+	5-fold cross-validation:
+
+	1.	0.80  0.80  0.79  0.80  0.80  	80%
+
+	Total validation time: 0:05:12
+
+	Average accuracy in 1 iterations: 80%
+
+===
+
+Apmācība ar 5+ leksikonu:
+
+[I] Word whitelist is read (39135).
+
+>>> nb_experiment.run_training("20_newsgroup.tsv", True)
+[I] Training an NB classifier...
+[I] Training time: 0:01:05
+
+nb_classifier.pickle = 75 MB
+
+Validācija ar 5+ leksikonu:
+
+>>> nb_experiment.run_validation("20_newsgroup.tsv", 5, 1)
+
+	5-fold cross-validation:
+
+	1.	0.79  0.79  0.79  0.79  0.78  	79%
+
+	Total validation time: 0:04:37
+
+	Average accuracy in 1 iterations: 79%
+
+===
+
+Apmācība ar 10+ leksikonu:
+
+[I] Word whitelist is read (23857).
+
+>>> nb_experiment.run_training("20_newsgroup.tsv", True)
+[I] Training an NB classifier...
+[I] Training time: 0:00:59
+
+nb_classifier.pickle = 46 MB
+
+Validācija ar 10+ leksikonu:
+
+>>> nb_experiment.run_validation("20_newsgroup.tsv", 5, 1)
+
+	5-fold cross-validation:
+
+	1.	0.77  0.77  0.77  0.78  0.78  	77%
+
+	Total validation time: 0:04:09
+
+	Average accuracy in 1 iterations: 77%
+
+===
+
+Validācija ar 3+ leksikonu:
+
+                          precision    recall  f1-score   support
+
+             alt.atheism       0.73      0.67      0.70       992
+           comp.graphics       0.73      0.76      0.75       993
+ comp.os.ms-windows.misc       0.82      0.70      0.76       992
+comp.sys.ibm.pc.hardware       0.74      0.78      0.76       992
+   comp.sys.mac.hardware       0.94      0.71      0.81       981
+          comp.windows.x       0.83      0.86      0.84       994
+            misc.forsale       0.92      0.58      0.71       989
+               rec.autos       0.91      0.82      0.86       994
+         rec.motorcycles       0.98      0.87      0.92       997
+      rec.sport.baseball       0.99      0.89      0.93       992
+        rec.sport.hockey       0.95      0.95      0.95       994
+               sci.crypt       0.76      0.94      0.84       998
+         sci.electronics       0.89      0.72      0.80       993
+                 sci.med       0.93      0.90      0.91       995
+               sci.space       0.89      0.91      0.90       996
+  soc.religion.christian       0.80      0.94      0.87       997
+      talk.politics.guns       0.81      0.86      0.83      1000
+   talk.politics.mideast       0.64      0.97      0.77      1000
+      talk.politics.misc       0.51      0.79      0.62      1000
+      talk.religion.misc       0.59      0.39      0.47       996
+
+               micro avg       0.80      0.80      0.80     19885
+               macro avg       0.82      0.80      0.80     19885
+            weighted avg       0.82      0.80      0.80     19885
+
+Confusion matrix:
+                         |               c                                                                 |
+                         |           c   o                                                                 |
+                         |           o   m                                               s                 |
+                         |           m   p   c                                           o       t         |
+                         |           p   .   o                                           c       a         |
+                         |           .   s   m                                           .       l         |
+                         |           o   y   p                   r                       r   t   k   t   t |
+                         |           s   s   .                   e                       e   a   .   a   a |
+                         |           .   .   s                   c   r                   l   l   p   l   l |
+                         |           m   i   y               r   .   e       s           i   k   o   k   k |
+                         |           s   b   s   c           e   s   c       c           g   .   l   .   . |
+                         |       c   -   m   .   o           c   p   .       i           i   p   i   p   r |
+                         |       o   w   .   m   m   m       .   o   s       .           o   o   t   o   e |
+                         |   a   m   i   p   a   p   i       m   r   p       e           n   l   i   l   l |
+                         |   l   p   n   c   c   .   s       o   t   o       l           .   i   c   i   i |
+                         |   t   .   d   .   .   w   c   r   t   .   r   s   e       s   c   t   s   t   g |
+                         |   .   g   o   h   h   i   .   e   o   b   t   c   c       c   h   i   .   i   i |
+                         |   a   r   w   a   a   n   f   c   r   a   .   i   t   s   i   r   c   m   c   o |
+                         |   t   a   s   r   r   d   o   .   c   s   h   .   r   c   .   i   s   i   s   n |
+                         |   h   p   .   d   d   o   r   a   y   e   o   c   o   i   s   s   .   d   .   . |
+                         |   e   h   m   w   w   w   s   u   c   b   c   r   n   .   p   t   g   e   m   m |
+                         |   i   i   i   a   a   s   a   t   l   a   k   y   i   m   a   i   u   a   i   i |
+                         |   s   c   s   r   r   .   l   o   e   l   e   p   c   e   c   a   n   s   s   s |
+                         |   m   s   c   e   e   x   e   s   s   l   y   t   s   d   e   n   s   t   c   c |
+-------------------------+---------------------------------------------------------------------------------+
+             alt.atheism |<669>  .   .   .   .   1   .   .   .   .   .   1   .   .   3  57   1  64  18 178 |
+           comp.graphics |   .<759> 31  33   2  53   1   1   .   1   1  27   4   5  16   6   1  27  23   2 |
+ comp.os.ms-windows.misc |   3  63<697> 68   2  71   1   .   .   .   2  37   2   .   8   8   .   6  22   2 |
+comp.sys.ibm.pc.hardware |   1  39  51<774> 15  16  13   1   .   .   1  35  12   4   2   3   3   5  16   1 |
+   comp.sys.mac.hardware |   .  31  24  58<701> 12   9   3   1   .   .  33  22   8  10   2   9  19  39   . |
+          comp.windows.x |   .  58  15   4   1<856>  .   .   1   1   4  12   .   .   8   1   1  14  16   2 |
+            misc.forsale |   1  26  21  68  17   4<576> 43   2   3   6  25  36   9  16   2  21  52  61   . |
+               rec.autos |   .   4   .   2   1   1  15<816>  9   1   1  11   6   4   5   3  16  38  61   . |
+         rec.motorcycles |   1   .   .   1   1   3   6  22<863>  .   .   6   1   3   1   2  19  27  41   . |
+      rec.sport.baseball |   .   1   1   .   .   2   .   .   1<882> 27   2   .   3   3   5   3  23  39   . |
+        rec.sport.hockey |   1   2   .   .   .   2   .   1   .   6<949>  1   .   5   .   1   2   5  19   . |
+               sci.crypt |   .   6   2   .   .   .   .   .   .   .   .<935>  .   5   1   1   7  12  27   2 |
+         sci.electronics |   .  25   4  31   6   9   5  11   3   .   2  76<714>  9  24   4   7  29  33   1 |
+                 sci.med |   1   8   .   .   .   .   .   1   1   .   2   5   4<892>  8  11   6  24  26   6 |
+               sci.space |   1   8   .   .   .   3   .   1   .   .   1   7   .   4<905>  3   3  29  29   2 |
+  soc.religion.christian |   4   2   .   .   .   1   .   .   .   .   .   .   .   2   .<941>  4  34   7   2 |
+      talk.politics.guns |   .   .   2   .   .   .   .   .   1   .   .   6   1   1   .   2<856> 28  87  16 |
+   talk.politics.mideast |   2   1   .   .   .   .   .   .   1   .   1   1   .   1   .   3   5<968> 16   1 |
+      talk.politics.misc |   1   .   .   .   .   .   1   .   .   1   .   4   .   2   1   3  47  86<792> 62 |
+      talk.religion.misc | 227   2   .   .   .   1   .   .   .   .   .   2   .   2   4 119  51  29 167<392>|
+-------------------------+---------------------------------------------------------------------------------+
+(row = reference; col = test)
+
+===
